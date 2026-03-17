@@ -1,0 +1,106 @@
+Semantik – Einfache Notizen (für Anfänger)
+
+Einleitung
+- Semantik bedeutet: Elemente haben eine klare Bedeutung.
+- In HTML heißt das: Tags sagen, WAS etwas ist, nicht nur WIE es aussieht.
+- Vorteile:
+  - Code ist leichter zu verstehen
+  - Bessere Barrierefreiheit (z. B. für Screenreader)
+  - Bessere Auffindbarkeit bei Suchmaschinen
+
+--------------------------------------------------
+
+1 - Seitenstruktur
+- Wichtige HTML-Tags für die Struktur:
+
+  <header>  → Kopfbereich (z. B. Logo, Titel)
+  <nav>     → Navigation (Menü)
+  <main>    → Hauptinhalt
+  <section> → Abschnitt zu einem Thema
+  <article> → Eigenständiger Inhalt (z. B. Blogartikel)
+  <aside>   → Zusatzinfos (z. B. Sidebar)
+  <footer>  → Fußbereich (z. B. Kontakt)
+
+- Ziel: Webseite klar und logisch aufbauen
+
+--------------------------------------------------
+
+2 - Seitenstruktur II
+- Elemente können ineinander verschachtelt werden.
+- Beispiel:
+  Ein <article> kann eigenen <header> und <footer> haben.
+- Wichtig:
+  - Nutze Tags passend zu ihrer Bedeutung
+  - Nicht nur fürs Design verwenden
+
+--------------------------------------------------
+
+3 - Listen (Lists)
+- Arten von Listen:
+
+  <ul> → ungeordnete Liste (Punkte)
+  <ol> → geordnete Liste (Nummern)
+  <li> → Listenelement
+
+- Weitere:
+  <dl> → Beschreibungsliste
+  <dt> → Begriff
+  <dd> → Beschreibung
+
+- Nutzen:
+  - Inhalte übersichtlich darstellen
+
+--------------------------------------------------
+
+4 - Bilder (img und figure)
+- <img>:
+  - Zeigt ein Bild an
+  - Wichtig: alt="Beschreibung" für Barrierefreiheit
+
+- <figure>:
+  - Verpackt Bilder oder Medien
+
+- <figcaption>:
+  - Beschriftung für das Bild
+
+--------------------------------------------------
+
+5 - Tabellen (table)
+- Für strukturierte Daten:
+
+  <table> → Tabelle
+  <tr>    → Zeile
+  <th>    → Überschrift
+  <td>    → Zelle
+  <thead>, <tbody>, <tfoot> → Struktur
+
+- Wichtig:
+  - Tabellen nur für Daten nutzen, NICHT fürs Layout
+
+--------------------------------------------------
+
+6 - p und span
+- <p>:
+  - Absatz (Block-Element → neue Zeile)
+
+- <span>:
+  - Inline-Element (bleibt in der Zeile)
+  - Keine eigene Bedeutung, nur für Styling
+
+--------------------------------------------------
+
+7 - Ausblick
+- Semantik ist die Grundlage für gutes HTML
+- Wichtig:
+  - Sauberer Code
+  - Richtige Tags verwenden
+- Später:
+  - CSS für Design
+  - JavaScript für Funktionen
+
+--------------------------------------------------
+
+Fazit
+- Semantisches HTML = verständlicher Code
+- Hilft Entwicklern, Browsern und Nutzern
+- Nutze immer das passende HTML-Element
