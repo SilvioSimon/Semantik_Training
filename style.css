@@ -58,3 +58,14 @@ section, aside {
 section {
         background-color: rgb(255, 255, 255);
     }
+
+th, td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #efefef;
+    font-weight: bold;
+}
+
