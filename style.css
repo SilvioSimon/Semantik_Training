@@ -1,0 +1,30 @@
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    header, footer {
+        color: white;
+        padding: 8px 16px;
+        width: 100%;
+        background-color: rgb(34, 32, 38);
+    }
+    
+    main {
+        color: rgb(34, 32, 38);
+        padding: 8px 16px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    
+    nav {
+        color: rgb(34, 32, 38);
+        padding: 8px 16px;
+        width: 100%;
+        background-color: rgb(175, 175, 175);
+    }
